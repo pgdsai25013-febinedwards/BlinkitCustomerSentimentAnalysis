@@ -1,0 +1,12 @@
+pandas
+numpy
+google-play-scraper
+requests
+supabase
+nltk
+scikit-learn
+matplotlib
+seaborn
+wordcloud
+python-dotenv
+streamlit
