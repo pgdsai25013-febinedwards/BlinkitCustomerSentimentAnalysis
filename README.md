@@ -123,3 +123,55 @@ The objective is to extract actionable insights about customer satisfaction, pai
 ---
 
 ## 🗂️ Project Structure
+CustomerReviewSentiment/
+│
+├── src/
+│ ├── db_connection.py
+│ ├── scrape_playstore.py
+│ ├── scrape_appstore.py
+│ ├── sentiment_analysis.py
+│ ├── topic_modeling.py
+│ ├── visualization.py
+│
+├── app.py
+├── requirements.txt
+├── README.md
+
+
+---
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/pgdsai25013-febinedwards/BlinkitCustomerSentimentAnalysis.git
+cd BlinkitCustomerSentimentAnalysis
+pip install -r requirements.txt
+
+▶️ Run Dashboard Locally
+streamlit run app.py
+
+🔐 Environment Variables
+
+Create a .env file (for local use):
+
+SUPABASE_URL=your-url
+SUPABASE_KEY=your-key
+
+For deployment, use Streamlit Secrets instead.
+
+📌 Future Improvements
+Use Transformer models (BERT) for sentiment analysis
+Add real-time data pipeline
+Improve Hinglish NLP handling
+Add advanced dashboard filters
+
+👤 Author
+Febin Edwards
+PGDSAI – IIM Sirmaur
+
+⭐ Notes
+Data collection and dashboard are decoupled for efficient deployment
+Lightweight NLP approach used for scalability
+
+[Streamlit Dashboard Link]
+https://blinkitcustomersentimentanalysis-iimdsai.streamlit.app/
