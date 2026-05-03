@@ -169,6 +169,51 @@ Add advanced dashboard filters
 Febin Edwards
 PGDSAI – IIM Sirmaur
 
+
+🔹 Step-by-step Breakdown
+1. 📥 Data Ingestion
+Google Play Store (scraper)
+Apple App Store (API)
+
+👉 Raw, unstructured customer reviews
+
+2. 🗄️ Data Storage
+Supabase (PostgreSQL)
+
+👉 Centralized database → scalable + queryable
+
+3. 🧹 Data Processing (ETL)
+Cleaning text
+Handling Hinglish
+Removing stopwords (dynamic + custom)
+
+👉 Converts raw text → usable format
+
+4. 🧠 Modeling Layer
+Sentiment Analysis
+VADER (lexicon-based)
+Topic Modeling
+TF-IDF + KMeans
+
+👉 Converts text → structured insights
+
+5. 📊 Visualization Layer
+Matplotlib / Seaborn charts
+Word clouds
+Topic distributions
+
+6. 🌐 Serving Layer (VERY IMPORTANT)
+Streamlit Dashboard
+👉 Makes insights:
+interactive
+shareable
+business-friendly
+
+7. 💡 Insight Layer
+Interpretation of results
+Recommendations
+👉 This is where business value comes
+
 ⭐ Notes
 Data collection and dashboard are decoupled for efficient deployment
 Lightweight NLP approach used for scalability
